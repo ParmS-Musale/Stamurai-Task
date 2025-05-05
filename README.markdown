@@ -95,18 +95,12 @@ This is a full-stack task management application built as part of the Stamurai c
    npm run test
    ```
 
-## Deployment
-- **Frontend**: Deployed on Vercel at `https://stamurai-task.vercel.app`.
-- **Backend**: Deployed on Vercel at `https://stamurai-task-backend.vercel.app`.
-- **Public Repository**: [GitHub Repository](https://github.com/your-username/stamurai-task)
 
 ## Development Decisions
 - **MongoDB**: Chosen for its flexibility with unstructured data and scalability for task management.
 - **Express**: Used for its simplicity and robust ecosystem for building RESTful APIs.
 - **Next.js**: Selected for its server-side rendering capabilities and seamless integration with Vercel.
-- **JWT Authentication**: Implemented for secure, stateless session management.
 - **Tailwind CSS**: Used for rapid, responsive UI development with minimal custom CSS.
-- **Email Notifications**: Integrated Nodemailer for task assignment notifications, with plans to support customizable settings.
 
 ## Compromises
 - **Real-Time Notifications**: Skipped WebSockets due to time constraints; used email notifications instead.
@@ -129,12 +123,5 @@ This is a full-stack task management application built as part of the Stamurai c
 5. **Filter/Search**: Use the search bar and filters to find specific tasks.
 6. **View Dashboard**: Check your assigned, created, and overdue tasks.
 
-## Notes for Reviewers
-- The code follows clean architecture principles with modular components and services.
-- Input validation is handled using Joi on the backend and React Hook Form on the frontend.
-- Error handling covers edge cases like empty inputs, invalid data, and server errors.
-- Commit messages are descriptive, following the format: `[type]: short description` (e.g., `feat: add task creation endpoint`).
-- The UI is responsive, tested on mobile, tablet, and desktop devices.
-- Tests cover critical backend endpoints (user auth, task CRUD).
 
-For any issues or questions, please contact [your-email@example.com].
+For any issues or questions, please contact [musaleparm9541@gmail.com].
