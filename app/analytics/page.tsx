@@ -116,7 +116,7 @@ export default function AnalyticsPage() {
         <TabsList className="mb-4">
           <TabsTrigger value="overview">Overview</TabsTrigger>
           <TabsTrigger value="team">Team Performance</TabsTrigger>
-          <TabsTrigger value="tasks">Task Metrics</TabsTrigger>
+          <TabsTrigger value="tasks">Task Metricss</TabsTrigger>
         </TabsList>
         <TabsContent value="overview">
           <div className="grid gap-6 md:grid-cols-2">
